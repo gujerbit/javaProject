@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="mainPane" prefHeight="680.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainController">
+   <children>
+      <HBox layoutY="7.0" prefHeight="670.0" prefWidth="670.0">
+         <children>
+            <Canvas fx:id="canvas" height="670.0" onMouseClicked="#MouseHandle" width="670.0" />
+         </children>
+      </HBox>
+      <VBox layoutX="696.0" layoutY="7.0" prefHeight="670.0" prefWidth="140.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#GameStart" prefHeight="70.0" prefWidth="150.0" text="게임 시작" />
+            <Button mnemonicParsing="false" onAction="#GameCheck" prefHeight="70.0" prefWidth="150.0" text="확인" />
+            <Button mnemonicParsing="false" onAction="#GameHelp" prefHeight="70.0" prefWidth="150.0" text="도움말" />
+            <Button mnemonicParsing="false" onAction="#kibitz" prefHeight="70.0" prefWidth="150.0" text="힌트" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

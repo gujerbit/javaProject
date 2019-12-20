@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="150.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="view.AnswerController">
+   <children>
+      <Label fx:id="lblQuestion" layoutX="25.0" layoutY="14.0" prefHeight="35.0" prefWidth="283.0" text="넣을 숫자는?" />
+      <TextField fx:id="txtAnswer" layoutX="25.0" layoutY="49.0" prefHeight="23.0" prefWidth="231.0" />
+      <Button layoutX="320.0" layoutY="99.0" mnemonicParsing="false" onAction="#sendAnswer" prefHeight="35.0" prefWidth="66.0" text="Button" />
+   </children>
+</AnchorPane>
